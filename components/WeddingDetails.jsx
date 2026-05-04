@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/navigation";
 
 import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
@@ -122,7 +123,8 @@ function PersonCard({ role, parent1, parent2, name, custom }) {
 /* ══════════════════════════════════════════════════ */
 export default function WeddingDetails() {
   const countdown = useCountdown("2026-09-05T10:30:00");
-
+  // inside your component:
+  const router = useRouter();
   return (
     <div
       style={{
@@ -149,6 +151,7 @@ export default function WeddingDetails() {
 
       {/* CLOSE */}
       <div
+        onClick={() => router.push("/")}
         style={{
           position: "fixed",
           top: 16,
@@ -169,7 +172,6 @@ export default function WeddingDetails() {
       >
         Close
       </div>
-
       <div
         style={{
           position: "relative",
