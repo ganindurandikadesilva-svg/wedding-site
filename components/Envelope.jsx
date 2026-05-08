@@ -150,7 +150,7 @@ export default function Envelope() {
             marginBottom: "6px",
           }}
         >
-          Tharindu & Dasuni
+          Sameera & Chathurika
         </motion.h1>
 
         {/* Date */}
@@ -294,7 +294,7 @@ export default function Envelope() {
                   textTransform: "uppercase",
                 }}
               >
-                Tharindu & Dasuni
+                Sameera & Chathurika
               </span>
             </div>
 
@@ -359,7 +359,7 @@ export default function Envelope() {
                   lineHeight: 1,
                 }}
               >
-                T&D
+                S&C
               </span>
               <span
                 style={{
