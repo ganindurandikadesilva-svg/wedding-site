@@ -167,7 +167,7 @@ export default function Envelope() {
             marginBottom: "48px",
           }}
         >
-          September 05, 2026
+          August 16, 2026
         </motion.p>
 
         {/* Envelope container */}
