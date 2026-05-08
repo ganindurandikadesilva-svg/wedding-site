@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Tharindu & Dasuni | Wedding Invitation",
+  title: "Sameera & Chathurika | Wedding Invitation",
   description: "You are cordially invited",
 };
 
