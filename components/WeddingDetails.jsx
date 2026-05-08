@@ -663,7 +663,7 @@ export default function WeddingDetails() {
                 letterSpacing: "0.06em",
               }}
             >
-              SATURDAY, 05 August
+              SUNDAY, 16 August
             </p>
             <p
               style={{
@@ -737,7 +737,7 @@ export default function WeddingDetails() {
 
             <p style={{ ...S.label, marginBottom: 12 }}>The Time</p>
             <p style={{ ...S.display, fontSize: "3rem", fontWeight: 300 }}>
-              10:30 AM
+              09:00 AM
             </p>
             <p style={{ ...S.body, marginTop: 6 }}>TO 04:00 PM</p>
           </motion.div>
@@ -817,7 +817,7 @@ export default function WeddingDetails() {
                 />
                 <circle cx="12" cy="12" r="3" fill="white" />
               </svg>
-              Poruwa Ceremony at 10:12 AM
+              Poruwa Ceremony at 11:05 AM
             </div>
           </motion.div>
         </Section>
